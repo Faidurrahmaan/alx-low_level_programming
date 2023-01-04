@@ -21,7 +21,7 @@ int evaluate_num(int num, int iterator)
 	{
 		return (evaluate_num(num, iterator + 1));
 	}
-	
+
 	return (0);
 }
 /**
